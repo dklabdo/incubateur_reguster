@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  *{
+      @apply scroll-smooth
+  }
+  .navlinks{
+      @apply  py-1 text-base px-3 font-normal transition duration-200 text-white cursor-pointer hover:text-black hover:bg-main  rounded-full
+  }
+  .active{
+      @apply bg-white text-black
+  }
+  
+  h2{
+      @apply text-3xl text-main text-center my-10
+  }
+  
+  .input{
+      @apply placeholder:text-white/50 outline-none py-2 focus:border-2  focus:border-white text-white rounded-2xl bg-black/50 backdrop-blur-lg h-12 my-4 appearance-none px-4
+  } 
+  select{
+      @apply bg-black/50 px-4 py-2 outline-none backdrop-blur-lg rounded-2xl p-2 text-white
+  }
+  option{
+      @apply placeholder:text-white py-2 text-white appearance-none bg-black px-12 outline-none backdrop-blur-lg rounded-2xl
+  }
+  label{
+      @apply text-main font-bold text-xl my-2 mt-8 ml-2 
+  }
+  textarea{
+      @apply placeholder:text-white/50 outline-none rounded-lg bg-black/50 backdrop-blur-lg h-44 p-2 text-white
+  }
+  .skil{
+     @apply text-white px-4 py-2 m-2 flex flex-row-reverse items-center gap-2 bg-black/70 backdrop-blur-lg rounded-3xl
+  }
+  .active{
+    @apply bg-main text-black
+  }
+ 
+  
+  
+  
+}

@@ -129,6 +129,9 @@ function Register() {
           <select name="grade" onChange={HandleChange} id="grade">
             <option value="ing1">ing 1</option>
             <option value="ing2">ing 2</option>
+            <option value="ing3">ing 3</option>
+            <option value="ing4">ing 4</option>
+            <option value="ing5">ing 5</option>
             <option value="l1">L1</option>
             <option value="l2">L2</option>
             <option value="l3">L3</option>
@@ -241,7 +244,7 @@ function Register() {
                   src={cancel}
                 />
               </span>
-              Natwork ingineer{""}
+              Natwork engineer{""}
             </button>
             <button className="skil" ref={s11} onClick={(e) => AddSkils(e, 11)}>
               <span>
@@ -281,7 +284,7 @@ function Register() {
                   src={cancel}
                 />
               </span>
-              Robotic ingineer
+              Robotic engineer
             </button>
             <button className="skil" ref={s15} onClick={(e) => AddSkils(e, 15)}>
               <span>
